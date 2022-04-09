@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Aguas Someras2.kml</name>
-	<Schema name="Aguas Someras" id="S_Aguas_Someras_SS">
+	<name>aguas_someras2.kml</name>
+	<Schema name="aguas_someras2" id="S_Aguas_Someras_SS">
 		<SimpleField type="string" name="licitacion"><displayName>&lt;b&gt;Licitación&lt;/b&gt;</displayName>
 </SimpleField>
 		<SimpleField type="string" name="area"><displayName>&lt;b&gt;Área&lt;/b&gt;</displayName>
@@ -21,8 +21,8 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[Aguas Someras/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[Aguas Someras/area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[aguas_someras2/licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[aguas_someras2/area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -36,8 +36,8 @@
 	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[Aguas Someras/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[Aguas Someras/area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[aguas_someras2/licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[aguas_someras2/area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -49,7 +49,7 @@
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">
-		<name>Aguas Someras</name>
+		<name>aguas_someras2</name>
 		<open>1</open>
 		<Placemark>
 			<name>13</name>

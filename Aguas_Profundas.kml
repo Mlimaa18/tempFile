@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Aguas Profundas.kml</name>
-	<Schema name="Aguas Profundas" id="S_Aguas_Profundas_SS">
+	<name>aguas_profundas.kml</name>
+	<Schema name="aguas_profundas" id="S_Aguas_Profundas_SS">
 		<SimpleField type="string" name="licitacion"><displayName>&lt;b&gt;Licitación&lt;/b&gt;</displayName>
 </SimpleField>
 		<SimpleField type="string" name="area"><displayName>&lt;b&gt;Área&lt;/b&gt;</displayName>
@@ -21,8 +21,8 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[Aguas Profundas/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[Aguas Profundas/area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[aguas_profundas/licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[aguas_profundas/area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -36,8 +36,8 @@
 	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[Aguas Profundas/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[Aguas Profundas/area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[aguas_profundas/licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[aguas_profundas/area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -49,7 +49,7 @@
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">
-		<name>Aguas Profundas</name>
+		<name>aguas_profundas</name>
 		<open>1</open>
 		<Placemark>
 			<name>1-CINTURON PLEGADO PERDIDO</name>
