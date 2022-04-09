@@ -15,10 +15,20 @@
 </SimpleField>
 		<SimpleField type="string" name="area"><displayName>&lt;b&gt;Área&lt;/b&gt;</displayName>
 </SimpleField>
-		<SimpleField type="string" name="Capa">Aguas Someras<displayName>&lt;b&gt;Capa&lt;/b&gt;</displayName>
+		<SimpleField type="string" name="Capa"><displayName>&lt;b&gt;Capa&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="falseColor">
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>Licitación</b></td><td>$[aguas_someras/licitacion]</td></tr>
@@ -26,8 +36,26 @@
   <tr><td><b>Capa</b></td><td>$[aguas_someras/Capa]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+		</LineStyle>
 		<PolyStyle>
-			<colorMode>random</colorMode>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Licitación</b></td><td>$[aguas_someras/licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[aguas_someras/area]</td></tr>
+  <tr><td><b>Capa</b></td><td>$[aguas_someras/Capa]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">
@@ -36,20 +64,6 @@
 		<Placemark>
 			<name>1-AMOCA</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -79,20 +93,6 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -113,20 +113,6 @@
 		<Placemark>
 			<name>4-ICHALKIL</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -147,20 +133,6 @@
 		<Placemark>
 			<name>5-MISON</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -181,20 +153,6 @@
 		<Placemark>
 			<name>1-MIZTON</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -215,20 +173,6 @@
 		<Placemark>
 			<name>5-NAK</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -249,20 +193,6 @@
 		<Placemark>
 			<name>4-POKOCH</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -283,20 +213,6 @@
 		<Placemark>
 			<name>1-TECOALLI (POLYGON B)</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -317,20 +233,6 @@
 		<Placemark>
 			<name>1-TECOALLI (POLYGON A)</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -351,20 +253,6 @@
 		<Placemark>
 			<name>3-XULUM</name>
 			<styleUrl>#falseColor</styleUrl>
-			<Style id="inline">
-				<IconStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</IconStyle>
-				<LineStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</LineStyle>
-				<PolyStyle>
-					<color>ffff5555</color>
-					<colorMode>normal</colorMode>
-				</PolyStyle>
-			</Style>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
 					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
@@ -372,7 +260,6 @@
 					<SimpleData name="Capa">Aguas Someras</SimpleData>
 				</SchemaData>
 			</ExtendedData>
-			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>

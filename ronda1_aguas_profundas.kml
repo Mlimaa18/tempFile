@@ -21,8 +21,8 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[aguas_profundas/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[aguas_profundas/area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -36,8 +36,8 @@
 	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[aguas_profundas/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[aguas_profundas/area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
