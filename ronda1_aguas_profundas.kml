@@ -2,12 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>aguas_profundas.kml</name>
-	<Schema name="aguas_profundas" id="S_Aguas_Profundas_SS">
-		<SimpleField type="string" name="licitacion"><displayName>&lt;b&gt;Licitación&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="area"><displayName>&lt;b&gt;Área&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema>
 	<StyleMap id="falseColor">
 		<Pair>
 			<key>normal</key>
@@ -28,6 +22,7 @@
 		</BalloonStyle>
 		<LineStyle>
 			<color>ffff5500</color>
+			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>ffffaa00</color>
@@ -89,10 +84,8 @@
 			<name>1-CINTURON PLEGADO PERDIDO</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">1-CINTURON PLEGADO PERDIDO</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">1-CINTURON PLEGADO PERDIDO</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -108,10 +101,8 @@
 			<name>2-CUENCA SALINA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">2-CUENCA SALINA</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">2-CUENCA SALINA</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -127,10 +118,8 @@
 			<name>2-CINTURON PLEGADO PERDIDO</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">2-CINTURON PLEGADO PERDIDO</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">2-CINTURON PLEGADO PERDIDO</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -146,10 +135,8 @@
 			<name>4-CUENCA SALINA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">4-CUENCA SALINA</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">4-CUENCA SALINA</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -165,10 +152,8 @@
 			<name>5-CUENCA SALINA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">5-CUENCA SALINA</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">5-CUENCA SALINA</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -184,10 +169,8 @@
 			<name>3-CINTURON PLEGADO PERDIDO</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">3-CINTURON PLEGADO PERDIDO</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">3-CINTURON PLEGADO PERDIDO</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -203,10 +186,8 @@
 			<name>6-CUENCA SALINA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">6-CUENCA SALINA</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">6-CUENCA SALINA</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -222,10 +203,8 @@
 			<name>4-CINTURON PLEGADO PERDIDO</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">4-CINTURON PLEGADO PERDIDO</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">4-CINTURON PLEGADO PERDIDO</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -241,10 +220,8 @@
 			<name>3-CUENCA SALINA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<Data name="licitacion">CNH-R01-L04/2015</Data>
-					<Data name="area">3-CUENCA SALINA</Data>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">3-CUENCA SALINA</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
