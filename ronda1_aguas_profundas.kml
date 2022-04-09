@@ -55,10 +55,8 @@
 			<name>1-CINTURON PLEGADO PERDIDO</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">1-CINTURON PLEGADO PERDIDO</SimpleData>
-				</SchemaData>
+				<Data name="licitacion">CNH-R01-L04/2015</Data>
+				<Data name="area">1-CINTURON PLEGADO PERDIDO</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -74,10 +72,8 @@
 			<name>1-CUENCA SALINA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">1-CUENCA SALINA</SimpleData>
-				</SchemaData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">1-CUENCA SALINA</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -94,8 +90,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">1-CINTURON PLEGADO PERDIDO</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">1-CINTURON PLEGADO PERDIDO</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -113,8 +109,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">2-CUENCA SALINA</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">2-CUENCA SALINA</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -132,8 +128,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">2-CINTURON PLEGADO PERDIDO</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">2-CINTURON PLEGADO PERDIDO</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -151,8 +147,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">4-CUENCA SALINA</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">4-CUENCA SALINA</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -170,8 +166,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">5-CUENCA SALINA</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">5-CUENCA SALINA</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -189,8 +185,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">3-CINTURON PLEGADO PERDIDO</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">3-CINTURON PLEGADO PERDIDO</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -208,8 +204,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">6-CUENCA SALINA</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">6-CUENCA SALINA</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -227,8 +223,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">4-CINTURON PLEGADO PERDIDO</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">4-CINTURON PLEGADO PERDIDO</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
@@ -246,8 +242,8 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Profundas_SS">
-					<SimpleData name="licitacion">CNH-R01-L04/2015</SimpleData>
-					<SimpleData name="area">3-CUENCA SALINA</SimpleData>
+					<Data name="licitacion">CNH-R01-L04/2015</Data>
+					<Data name="area">3-CUENCA SALINA</Data>
 				</SchemaData>
 			</ExtendedData>
 			<Polygon>
