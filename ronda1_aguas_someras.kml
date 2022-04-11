@@ -23,9 +23,9 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[aguas_someras/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[aguas_someras/area]</td></tr>
-  <tr><td><b>Capa</b></td><td>$[aguas_someras/Capa]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[area]</td></tr>
+  <tr><td><b>Capa</b></td><td>$[Capa]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
@@ -38,9 +38,9 @@
 	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[aguas_someras/licitacion]</td></tr>
-  <tr><td><b>Área</b></td><td>$[aguas_someras/area]</td></tr>
-  <tr><td><b>Capa</b></td><td>$[aguas_someras/Capa]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacion]</td></tr>
+  <tr><td><b>Área</b></td><td>$[area]</td></tr>
+  <tr><td><b>Capa</b></td><td>$[Capa]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
@@ -57,9 +57,9 @@
 			<name>1-AMOCA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-				<SimpleData name="area">1-AMOCA</SimpleData>
-				<SimpleData name="Capa">Aguas Someras</SimpleData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>1-AMOCA</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -84,11 +84,9 @@
 			</LookAt>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">2-HOKCHI (POLYGON A)</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>2-HOKCHI (POLYGON A)</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -104,11 +102,9 @@
 			<name>4-ICHALKIL</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">4-ICHALKIL</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>4-ICHALKIL</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -124,11 +120,9 @@
 			<name>5-MISON</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">5-MISON</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>5-MISON</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -144,11 +138,9 @@
 			<name>1-MIZTON</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">1-MIZTON</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>1-MIZTON</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -164,11 +156,9 @@
 			<name>5-NAK</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">5-NAK</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>5-NAK</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -184,11 +174,9 @@
 			<name>4-POKOCH</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">4-POKOCH</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>4-POKOCH</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -204,11 +192,9 @@
 			<name>1-TECOALLI (POLYGON B)</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">1-TECOALLI (POLYGON B)</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>1-TECOALLI (POLYGON B)</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -224,11 +210,9 @@
 			<name>1-TECOALLI (POLYGON A)</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">1-TECOALLI (POLYGON A)</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>1-TECOALLI (POLYGON A)</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -244,11 +228,9 @@
 			<name>3-XULUM</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">3-XULUM</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
+				<Data name="area"><value>3-XULUM</value></Data>
+				<Data name="Capa"><value>Aguas Someras</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
