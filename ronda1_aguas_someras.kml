@@ -10,14 +10,6 @@
 			<maxSnippetLines>2</maxSnippetLines>
 		</ListStyle>
 	</Style>
-	<Schema name="aguas_someras" id="S_Aguas_Someras_SSS">
-		<SimpleField type="string" name="licitacion"><displayName>&lt;b&gt;Licitación&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="area"><displayName>&lt;b&gt;Área&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="Capa"><displayName>&lt;b&gt;Capa&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema>
 	<StyleMap id="falseColor">
 		<Pair>
 			<key>normal</key>
