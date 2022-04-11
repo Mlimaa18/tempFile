@@ -57,11 +57,9 @@
 			<name>1-AMOCA</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SSS">
-					<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
-					<SimpleData name="area">1-AMOCA</SimpleData>
-					<SimpleData name="Capa">Aguas Someras</SimpleData>
-				</SchemaData>
+				<SimpleData name="licitacion">CNH-R01-L02/2015</SimpleData>
+				<SimpleData name="area">1-AMOCA</SimpleData>
+				<SimpleData name="Capa">Aguas Someras</SimpleData>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
