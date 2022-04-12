@@ -21,26 +21,16 @@
 		<SimpleField type="string" name="tipo_de_co"><displayName>&lt;b&gt;tipo_de_co&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="falseColor">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>Cluster</b></td><td>$[cluster]</td></tr>
-  <tr><td><b>Fecha de convocatoria</b></td><td>$[fecha_de_c]</td></tr>
-  <tr><td><b>Fecha de licitación</b></td><td>$[fecha_de_l]</td></tr>
-  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
-  <tr><td><b>Ubicación</b></td><td>$[ubicacin]</td></tr>
-  <tr><td><b>Superficie</b></td><td>$[superficie]</td></tr>
-  <tr><td><b>Estatus</b></td><td>$[estatus]</td></tr>
-  <tr><td><b>Tipo de contrato</b></td><td>$[tipo_de_co]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<LineStyle>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff0055ff</color>
-		</PolyStyle>
-	</Style>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -56,26 +46,38 @@
 ]]></text>
 		</BalloonStyle>
 		<LineStyle>
+			<color>ff0055ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff0055ff</color>
+			<color>ff00aaff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Cluster</b></td><td>$[cluster]</td></tr>
+  <tr><td><b>Fecha de convocatoria</b></td><td>$[fecha_de_c]</td></tr>
+  <tr><td><b>Fecha de licitación</b></td><td>$[fecha_de_l]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
+  <tr><td><b>Ubicación</b></td><td>$[ubicacin]</td></tr>
+  <tr><td><b>Superficie</b></td><td>$[superficie]</td></tr>
+  <tr><td><b>Estatus</b></td><td>$[estatus]</td></tr>
+  <tr><td><b>Tipo de contrato</b></td><td>$[tipo_de_co]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00aaff</color>
+		</PolyStyle>
+	</Style>
 	<Folder id="layer 0">
 		<name>CNH-A6-7 Asociaciones-2018</name>
 		<Placemark>
 			<name>Bacal-Nelash</name>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_CNH_A6_7_Asociaciones_2018_SSSSSSSS">
 					<SimpleData name="cluster">Bacal-Nelash</SimpleData>
@@ -111,7 +113,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lacamango</name>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_CNH_A6_7_Asociaciones_2018_SSSSSSSS">
 					<SimpleData name="cluster">Lacamango</SimpleData>
@@ -136,7 +138,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Juspi-Teotleco</name>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_CNH_A6_7_Asociaciones_2018_SSSSSSSS">
 					<SimpleData name="cluster">Juspi-Teotleco</SimpleData>
@@ -161,7 +163,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Giraldas-Sunuapa</name>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_CNH_A6_7_Asociaciones_2018_SSSSSSSS">
 					<SimpleData name="cluster">Giraldas-Sunuapa</SimpleData>
@@ -186,7 +188,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Cinco Presidentes</name>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_CNH_A6_7_Asociaciones_2018_SSSSSSSS">
 					<SimpleData name="cluster">Cinco Presidentes</SimpleData>
@@ -211,7 +213,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Bedel-Gasífero</name>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_CNH_A6_7_Asociaciones_2018_SSSSSSSS">
 					<SimpleData name="cluster">Bedel-Gasífero</SimpleData>
@@ -236,7 +238,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Artesa</name>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_CNH_A6_7_Asociaciones_2018_SSSSSSSS">
 					<SimpleData name="cluster">Artesa</SimpleData>
