@@ -3,17 +3,11 @@
 <Document>
 	<name>Aguas Someras.shp</name>
 	<open>1</open>
-	<Schema name="Aguas Someras" id="S_Aguas_Someras_SS">
-		<SimpleField type="string" name="licitacin"><displayName>&lt;b&gt;licitacin&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="area"><displayName>&lt;b&gt;area&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema>
 	<Style id="falseColor">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>licitacin</b></td><td>$[Aguas Someras/licitacin]</td></tr>
-  <tr><td><b>area</b></td><td>$[Aguas Someras/area]</td></tr>
+  <tr><td><b>licitacin</b></td><td>$[licitacin]</td></tr>
+  <tr><td><b>area</b></td><td>$[area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -27,8 +21,8 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>licitacin</b></td><td>$[Aguas Someras/licitacin]</td></tr>
-  <tr><td><b>area</b></td><td>$[Aguas Someras/area]</td></tr>
+  <tr><td><b>licitacin</b></td><td>$[licitacin]</td></tr>
+  <tr><td><b>area</b></td><td>$[area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -55,10 +49,8 @@
 			<name>6</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">6</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>6</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -74,10 +66,8 @@
 			<name>5</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">5</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>5</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -93,10 +83,8 @@
 			<name>15</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">15</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>15</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -112,10 +100,8 @@
 			<name>7</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">7</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>7</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -131,10 +117,8 @@
 			<name>8</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">8</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>8</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -150,10 +134,8 @@
 			<name>9</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">9</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>9</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -169,10 +151,8 @@
 			<name>10</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">10</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>10</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -188,10 +168,8 @@
 			<name>11</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">11</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>11</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -207,10 +185,8 @@
 			<name>12</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">12</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>12</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -226,10 +202,8 @@
 			<name>13</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">13</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>13</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -245,10 +219,8 @@
 			<name>1</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">1</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>1</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -264,10 +236,8 @@
 			<name>2</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">2</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>2</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -283,10 +253,8 @@
 			<name>3</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">3</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>3</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -302,10 +270,8 @@
 			<name>4</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">4</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>4</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -321,10 +287,8 @@
 			<name>14</name>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Aguas_Someras_SS">
-					<SimpleData name="licitacin">CNH-R02-L01/2016</SimpleData>
-					<SimpleData name="area">14</SimpleData>
-				</SchemaData>
+				<Data name="licitacin"><value>CNH-R02-L01/2016</value></Data>
+				<Data name="area"><value>14</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>

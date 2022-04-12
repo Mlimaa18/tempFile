@@ -2,12 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Aguas Someras.shp</name>
-	<Schema name="Aguas Someras" id="S_Aguas_Someras_SS">
-		<SimpleField type="string" name="licitacion"><value><displayName>&lt;b&gt;Licitación&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="area"><value><displayName>&lt;b&gt;Área&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema>
 	<StyleMap id="falseColor">
 		<Pair>
 			<key>normal</key>
