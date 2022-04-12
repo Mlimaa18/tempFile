@@ -6,8 +6,8 @@
 	<Style id="falseColor">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>licitacin</b></td><td>$[licitacin]</td></tr>
-  <tr><td><b>area</b></td><td>$[area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
+  <tr><td><b>Área</b></td><td>$[area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -21,8 +21,8 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>licitacin</b></td><td>$[licitacin]</td></tr>
-  <tr><td><b>area</b></td><td>$[area]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
+  <tr><td><b>Área</b></td><td>$[area]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>

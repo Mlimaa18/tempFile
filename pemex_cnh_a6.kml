@@ -61,14 +61,14 @@
 			<name>Bacal-Nelash</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="cluster">Bacal-Nelash</value></Data>
-				<Data name="fecha_de_c">27/04/2018</value></Data>
-				<Data name="fecha_de_l">31/10/2018</value></Data>
+				<Data name="cluster"><value>Bacal-Nelash</value></Data>
+				<Data name="fecha_de_c"><value>27/04/2018</value></Data>
+				<Data name="fecha_de_l"><value>31/10/2018</value></Data>
 				<Data name="licitacin"><value>CNH-A6-7 Asociaciones/2018</value></Data>
-				<Data name="ubicacin">Terrestre</value></Data>
-				<Data name="superficie">156.197</value></Data>
-				<Data name="estatus">Por Adjudicar</value></Data>
-				<Data name="tipo_de_co">Licencia</value></Data>
+				<Data name="ubicacin"><value>Terrestre</value></Data>
+				<Data name="superficie"><value>156.197</value></Data>
+				<Data name="estatus"><value>Por Adjudicar</value></Data>
+				<Data name="tipo_de_co"><value>Licencia</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>
@@ -95,14 +95,14 @@
 			<name>Lacamango</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="cluster">Lacamango</value></Data>
-				<Data name="fecha_de_c">27/04/2018</value></Data>
-				<Data name="fecha_de_l">31/10/2018</value></Data>
+				<Data name="cluster"><value>Lacamango</value></Data>
+				<Data name="fecha_de_c"><value>27/04/2018</value></Data>
+				<Data name="fecha_de_l"><value>31/10/2018</value></Data>
 				<Data name="licitacin"><value>CNH-A6-7 Asociaciones/2018</value></Data>
-				<Data name="ubicacin">Terrestre</value></Data>
-				<Data name="superficie">16.265</value></Data>
-				<Data name="estatus">Por Adjudicar</value></Data>
-				<Data name="tipo_de_co">Licencia</value></Data>
+				<Data name="ubicacin"><value>Terrestre</value></Data>
+				<Data name="superficie"><value>16.265</value></Data>
+				<Data name="estatus"><value>Por Adjudicar</value></Data>
+				<Data name="tipo_de_co"><value>Licencia</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -118,14 +118,14 @@
 			<name>Juspi-Teotleco</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="cluster">Juspi-Teotleco</value></Data>
-				<Data name="fecha_de_c">27/04/2018</value></Data>
-				<Data name="fecha_de_l">31/10/2018</value></Data>
+				<Data name="cluster"><value>Juspi-Teotleco</value></Data>
+				<Data name="fecha_de_c"><value>27/04/2018</value></Data>
+				<Data name="fecha_de_l"><value>31/10/2018</value></Data>
 				<Data name="licitacin"><value>CNH-A6-7 Asociaciones/2018</value></Data>
-				<Data name="ubicacin">Terrestre</value></Data>
-				<Data name="superficie">449.951</value></Data>
-				<Data name="estatus">Por Adjudicar</value></Data>
-				<Data name="tipo_de_co">Licencia</value></Data>
+				<Data name="ubicacin"><value>Terrestre</value></Data>
+				<Data name="superficie"><value>449.951</value></Data>
+				<Data name="estatus"><value>Por Adjudicar</value></Data>
+				<Data name="tipo_de_co"><value>Licencia</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -141,14 +141,14 @@
 			<name>Giraldas-Sunuapa</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="cluster">Giraldas-Sunuapa</value></Data>
-				<Data name="fecha_de_c">27/04/2018</value></Data>
-				<Data name="fecha_de_l">31/10/2018</value></Data>
+				<Data name="cluster"><value>Giraldas-Sunuapa</value></Data>
+				<Data name="fecha_de_c"><value>27/04/2018</value></Data>
+				<Data name="fecha_de_l"><value>31/10/2018</value></Data>
 				<Data name="licitacin"><value>CNH-A6-7 Asociaciones/2018</value></Data>
-				<Data name="ubicacin">Terrestre</value></Data>
-				<Data name="superficie">1,726.376</value></Data>
-				<Data name="estatus">Por Adjudicar</value></Data>
-				<Data name="tipo_de_co">Licencia</value></Data>
+				<Data name="ubicacin"><value>Terrestre</value></Data>
+				<Data name="superficie"><value>1,726.376</value></Data>
+				<Data name="estatus"><value>Por Adjudicar</value></Data>
+				<Data name="tipo_de_co"><value>Licencia</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -164,14 +164,14 @@
 			<name>Cinco Presidentes</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="cluster">Cinco Presidentes</value></Data>
-				<Data name="fecha_de_c">27/04/2018</value></Data>
-				<Data name="fecha_de_l">31/10/2018</value></Data>
+				<Data name="cluster"><value>Cinco Presidentes</value></Data>
+				<Data name="fecha_de_c"><value>27/04/2018</value></Data>
+				<Data name="fecha_de_l"><value>31/10/2018</value></Data>
 				<Data name="licitacin"><value>CNH-A6-7 Asociaciones/2018</value></Data>
-				<Data name="ubicacin">Terrestre</value></Data>
-				<Data name="superficie">167.118</value></Data>
-				<Data name="estatus">Por Adjudicar</value></Data>
-				<Data name="tipo_de_co">Licencia</value></Data>
+				<Data name="ubicacin"><value>Terrestre</value></Data>
+				<Data name="superficie"><value>167.118</value></Data>
+				<Data name="estatus"><value>Por Adjudicar</value></Data>
+				<Data name="tipo_de_co"><value>Licencia</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -187,14 +187,14 @@
 			<name>Bedel-Gasífero</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="cluster">Bedel-Gasífero</value></Data>
-				<Data name="fecha_de_c">27/04/2018</value></Data>
-				<Data name="fecha_de_l">31/10/2018</value></Data>
+				<Data name="cluster"><value>Bedel-Gasífero</value></Data>
+				<Data name="fecha_de_c"><value>27/04/2018</value></Data>
+				<Data name="fecha_de_l"><value>31/10/2018</value></Data>
 				<Data name="licitacin"><value>CNH-A6-7 Asociaciones/2018</value></Data>
-				<Data name="ubicacin">Terrestre</value></Data>
-				<Data name="superficie">1,168.112</value></Data>
-				<Data name="estatus">Por Adjudicar</value></Data>
-				<Data name="tipo_de_co">Licencia</value></Data>
+				<Data name="ubicacin"><value>Terrestre</value></Data>
+				<Data name="superficie"><value>1,168.112</value></Data>
+				<Data name="estatus"><value>Por Adjudicar</value></Data>
+				<Data name="tipo_de_co"><value>Licencia</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -210,14 +210,14 @@
 			<name>Artesa</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="cluster">Artesa</value></Data>
-				<Data name="fecha_de_c">27/04/2018</value></Data>
-				<Data name="fecha_de_l">31/10/2018</value></Data>
+				<Data name="cluster"><value>Artesa</value></Data>
+				<Data name="fecha_de_c"><value>27/04/2018</value></Data>
+				<Data name="fecha_de_l"><value>31/10/2018</value></Data>
 				<Data name="licitacin"><value>CNH-A6-7 Asociaciones/2018</value></Data>
-				<Data name="ubicacin">Terrestre</value></Data>
-				<Data name="superficie">893.134</value></Data>
-				<Data name="estatus">Por Adjudicar</value></Data>
-				<Data name="tipo_de_co">Licencia</value></Data>
+				<Data name="ubicacin"><value>Terrestre</value></Data>
+				<Data name="superficie"><value>893.134</value></Data>
+				<Data name="estatus"><value>Por Adjudicar</value></Data>
+				<Data name="tipo_de_co"><value>Licencia</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
