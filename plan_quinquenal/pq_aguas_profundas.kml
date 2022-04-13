@@ -47,31 +47,31 @@
 				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[clave]</b></h5>
 				<table style="border: solid 1px #3e8ed0;">
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>clave</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Clave</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[clave]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>categora</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Categoría</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[categora]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>recurso</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Recurso</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[recurso]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>sector</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Sector</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[sector]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>superficie</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>actividad</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Actividad</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>entidad</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Entidad</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[entidad]</td>
 					</tr>
 				</table>
