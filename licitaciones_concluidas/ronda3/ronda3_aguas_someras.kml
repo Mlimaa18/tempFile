@@ -24,13 +24,13 @@
 			<color>ffff00ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>ffff55ff</color>
+			<color>7fff55ff</color>
 		</PolyStyle>
 	</Style>
 	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[
-				<h5 style="color: #485fc7; font-size: 15px; text-align: center;"><b>$[licitacion]</b></h5>
+				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[licitacion]</b></h5>
 				<hr>
 				<table style="border: solid 1px #3e8ed0;">
 					<tr>
