@@ -71,7 +71,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>1-AMOCA</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -98,7 +98,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>2-HOKCHI (POLYGON A)</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -116,7 +116,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>4-ICHALKIL</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -134,7 +134,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>5-MISON</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -152,7 +152,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>1-MIZTON</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -170,7 +170,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>5-NAK</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -188,7 +188,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>4-POKOCH</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -206,7 +206,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>1-TECOALLI (POLYGON B)</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -224,7 +224,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>1-TECOALLI (POLYGON A)</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -242,7 +242,7 @@
 			<ExtendedData>
 				<Data name="licitacion"><value>CNH-R01-L02/2015</value></Data>
 				<Data name="area"><value>3-XULUM</value></Data>
-				<Data name="Capa"><value>Aguas Someras</value></Data>
+				<Data name="Capa"><value>AGUAS SOMERAS</value></Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
