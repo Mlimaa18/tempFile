@@ -14,8 +14,8 @@
 	</StyleMap>
 	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[licitacion]</td></tr>
+			<text><![CDATA[<table class="table is-fullwidth is-bordered">
+  <tr><td class="has-text-white has-background-info is-size-7"><b>Licitación</b></td><td class="is-size-7">$[licitacion]</td></tr>
   <tr><td><b>Área</b></td><td>$[area]</td></tr>
 </table>
 ]]></text>
