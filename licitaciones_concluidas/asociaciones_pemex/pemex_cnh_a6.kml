@@ -54,16 +54,34 @@
 	</Style>
 	<Style id="falseColor1">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>Cluster</b></td><td>$[cluster]</td></tr>
-  <tr><td><b>Fecha de convocatoria</b></td><td>$[fecha_de_c]</td></tr>
-  <tr><td><b>Fecha de licitación</b></td><td>$[fecha_de_l]</td></tr>
-  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
-  <tr><td><b>Ubicación</b></td><td>$[ubicacin]</td></tr>
-  <tr><td><b>Superficie</b></td><td>$[superficie]</td></tr>
-  <tr><td><b>Estatus</b></td><td>$[estatus]</td></tr>
-  <tr><td><b>Tipo de contrato</b></td><td>$[tipo_de_co]</td></tr>
-</table>
+			<text><![CDATA[
+			<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[Cluster]</b></h5>
+			<table style="border: solid 1px #3e8ed0;">
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Cluster</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[cluster]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de convocatoria</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_c]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de licitación</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_l]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td
+					><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Ubicación</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ubicacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Estatus</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[estatus]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Tipo de contrato</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[tipo_de_co]</td></tr>
+			</table>
 ]]></text>
 		</BalloonStyle>
 		<LineStyle>
