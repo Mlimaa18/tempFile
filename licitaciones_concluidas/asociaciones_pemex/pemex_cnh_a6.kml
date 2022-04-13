@@ -16,7 +16,7 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[
-			<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[Cluster]</b></h5>
+			<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[cluster]</b></h5>
 			<table style="border: solid 1px #3e8ed0;">
 				<tr>
 					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Cluster</b></td>
@@ -49,7 +49,7 @@
 			<color>ff0055ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff00aaff</color>
+			<color>B300aaff</color>
 		</PolyStyle>
 	</Style>
 	<Style id="falseColor1">
@@ -88,7 +88,7 @@
 			<color>ff0055ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff00aaff</color>
+			<color>B300aaff</color>
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">
