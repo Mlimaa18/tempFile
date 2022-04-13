@@ -23,7 +23,7 @@
 			<color>ff7fff55</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff7faa55</color>
+			<color>997faa55</color>
 		</PolyStyle>
 	</Style>
 	<Style id="falseColor0">
@@ -46,7 +46,7 @@
 			<color>ff7fff55</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>B37faa55</color>
+			<color>997faa55</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="falseColor1">
