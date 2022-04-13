@@ -28,7 +28,7 @@
 			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ffdb8e59</color>
+			<color>99db8e59</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="falseColor0">
@@ -43,23 +43,46 @@
 	</StyleMap>
 	<Style id="falseColor1">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
-  <tr><td><b>entidad</b></td><td>$[entidad]</td></tr>
-</table>
-]]></text>
+			<text><![CDATA[
+				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[licitacion]</b></h5>
+				<table style="border: solid 1px #3e8ed0;">
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>clave</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[clave]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>categora</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[categora]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>recurso</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[recurso]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>sector</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[sector]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>superficie</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>actividad</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>entidad</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[entidad]</td>
+					</tr>
+				</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>ffcccbcb</color>
 			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ffdb8e59</color>
+			<color>99db8e59</color>
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">

@@ -50,40 +50,135 @@
 	</Style>
 	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_2]</td></tr>
-  <tr><td><b>asignacin</b></td><td>$[asignacin]</td></tr>
-  <tr><td><b>polgono</b></td><td>$[polgono]</td></tr>
-  <tr><td><b>estatus</b></td><td>$[estatus]</td></tr>
-  <tr><td><b>tipo</b></td><td>$[tipo]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
-  <tr><td><b>ubicacin</b></td><td>$[ubicacin]</td></tr>
-  <tr><td><b>fecha_fin_</b></td><td>$[fecha_fin_]</td></tr>
-  <tr><td><b>vigencia_a</b></td><td>$[vigencia_a]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
-  <tr><td><b>cuenca</b></td><td>$[cuenca]</td></tr>
-  <tr><td><b>tipo_de_ya</b></td><td>$[tipo_de_ya]</td></tr>
-  <tr><td><b>periodo_de</b></td><td>$[periodo_de]</td></tr>
-  <tr><td><b>formacin</b></td><td>$[formacin]</td></tr>
-  <tr><td><b>litologa</b></td><td>$[litologa]</td></tr>
-  <tr><td><b>petrleo_cr</b></td><td>$[petrleo_cr]</td></tr>
-  <tr><td><b>aceite_1p_</b></td><td>$[aceite_1p_]</td></tr>
-  <tr><td><b>condensado</b></td><td>$[condensado]</td></tr>
-  <tr><td><b>gas_natura</b></td><td>$[gas_natura]</td></tr>
-  <tr><td><b>gas_seco_1</b></td><td>$[gas_seco_1]</td></tr>
-  <tr><td><b>petrleo__1</b></td><td>$[petrleo__1]</td></tr>
-  <tr><td><b>aceite_2p_</b></td><td>$[aceite_2p_]</td></tr>
-  <tr><td><b>condensa_1</b></td><td>$[condensa_1]</td></tr>
-  <tr><td><b>gas_natu_1</b></td><td>$[gas_natu_1]</td></tr>
-  <tr><td><b>gas_seco_2</b></td><td>$[gas_seco_2]</td></tr>
-  <tr><td><b>petrleo__2</b></td><td>$[petrleo__2]</td></tr>
-  <tr><td><b>aceite_3p_</b></td><td>$[aceite_3p_]</td></tr>
-  <tr><td><b>condensa_2</b></td><td>$[condensa_2]</td></tr>
-  <tr><td><b>gas_natu_2</b></td><td>$[gas_natu_2]</td></tr>
-  <tr><td><b>gas_seco_3</b></td><td>$[gas_seco_3]</td></tr>
-  <tr><td><b>comentario</b></td><td>$[comentario]</td></tr>
-</table>
-]]></text>
+			<text><![CDATA[
+				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[licitacion]</b></h5>
+				<table style="border: solid 1px #3e8ed0;">
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>id</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[id_2]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>asignacin</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[asignacin]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>polgono</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[polgono]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>estatus</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[estatus]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>tipo</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[tipo]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>actividad</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ubicacin</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ubicacin]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>fecha_fin_</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_fin_]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>vigencia_a</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[vigencia_a]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>superficie</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>cuenca</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[cuenca]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>tipo_de_ya</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[tipo_de_ya]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>periodo_de</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[periodo_de]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>formacin</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[formacin]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>litologa</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[litologa]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>petrleo_cr</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[petrleo_cr]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>aceite_1p_</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[aceite_1p_]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>condensado</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[condensado]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>gas_natura</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_natura]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>gas_seco_1</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_seco_1]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>petrleo__1</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[petrleo__1]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>aceite_2p_</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[aceite_2p_]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>condensa_1</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[condensa_1]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>gas_natu_1</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_natu_1]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>gas_seco_2</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_seco_2]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>petrleo__2</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[petrleo__2]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>aceite_3p_</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[aceite_3p_]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>condensa_2</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[condensa_2]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>gas_natu_2</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_natu_2]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>gas_seco_3</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_seco_3]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>comentario</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[comentario]</td>
+					</tr>
+				</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>ff7fff00</color>
