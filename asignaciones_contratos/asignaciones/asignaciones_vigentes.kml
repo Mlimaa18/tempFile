@@ -37,7 +37,7 @@
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[vigencia_a]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie (Km2)</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie (Km<sup>2</sup>)</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
 					</tr>
 					<tr>
@@ -182,7 +182,7 @@
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[vigencia_a]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie (Km2)</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie (Km<sup>2</sup>)</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
 					</tr>
 					<tr>
