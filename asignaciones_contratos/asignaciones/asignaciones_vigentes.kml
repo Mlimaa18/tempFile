@@ -121,8 +121,12 @@
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_seco_3]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>comentario</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Comentario</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[comentario]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Vigentes</td>
 					</tr>
 				</table>
 			]]></text>
@@ -262,8 +266,12 @@
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[gas_seco_3]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>comentario</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Comentario</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[comentario]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Vigentes</td>
 					</tr>
 				</table>
 			]]></text>

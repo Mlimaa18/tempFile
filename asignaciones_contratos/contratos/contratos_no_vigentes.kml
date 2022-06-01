@@ -66,8 +66,12 @@
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[incremento]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Pago por desempate (USD)</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Pago por desempate (USD)</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[pago_por_d]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">No vigentes</td>
 					</tr>
 				</table>
 			]]></text>
@@ -133,8 +137,12 @@
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[incremento]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Pago por desempate (USD)</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Pago por desempate (USD)</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[pago_por_d]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">No vigentes</td>
 					</tr>
 				</table>
 			]]></text>
