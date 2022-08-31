@@ -81,7 +81,8 @@
 				</table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ff0055ff</color>
+			<color>e60055ff</color>
+			<width>0.7</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>997faaff</color>
@@ -176,7 +177,8 @@
 				</table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ff0055ff</color>
+			<color>e60055ff</color>
+			<width>0.7</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>997faaff</color>
