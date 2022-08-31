@@ -2,102 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Produccion Compartida.shp</name>
-	<Style id="falseColor">
-		<BalloonStyle>
-			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[nombre_de_]</b></h5>
-				<table style="border: solid 1px #3e8ed0;">
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Nombre del contrato</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[nombre_de_]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Ronda</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ronda]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Área contractual</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[rea_contra]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Estado</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[estado]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fase</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fase]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Ubicación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ubicacin]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de firma</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_f]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Vigencia</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[vigencia]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie (Km<sup>2</sup>)</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Tipo de contrato</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[tipo_de_co]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Contratista</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[contratist]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>País</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[pas]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Incremento prog. min. trab. (%)</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[incremento]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Valor ponderado</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[valor_pond]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Bono</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[bono]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Participación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[participac]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Producción Compartida</td>
-					</tr>
-				</table>]]></text>
-		</BalloonStyle>
-		<LineStyle>
-			<color>e60055ff</color>
-			<width>0.7</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>997faaff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[nombre_de_]</b></h5>
@@ -181,9 +85,105 @@
 			<width>0.7</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>997faaff</color>
+			<color>737faaff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[nombre_de_]</b></h5>
+				<table style="border: solid 1px #3e8ed0;">
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Nombre del contrato</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[nombre_de_]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Ronda</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ronda]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Área contractual</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[rea_contra]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Estado</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[estado]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fase</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fase]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Ubicación</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ubicacin]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de firma</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_f]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Vigencia</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[vigencia]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie (Km<sup>2</sup>)</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Tipo de contrato</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[tipo_de_co]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Contratista</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[contratist]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>País</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[pas]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Incremento prog. min. trab. (%)</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[incremento]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Valor ponderado</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[valor_pond]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Bono</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[bono]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Participación</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[participac]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Producción Compartida</td>
+					</tr>
+				</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>e60055ff</color>
+			<width>0.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>737faaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder id="layer 0">
 		<name>Produccion Compartida</name>
 		<Placemark>

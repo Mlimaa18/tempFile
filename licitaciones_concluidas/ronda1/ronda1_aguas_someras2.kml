@@ -2,20 +2,9 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>aguas_someras2.kml</name>
-	<StyleMap id="falseColor">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[
-				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]</b></h5>
+			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]</b></h5>
 				<table style="border: solid 1px #3e8ed0;">
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
@@ -29,20 +18,29 @@
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">AGUAS SOMERAS</td>
 					</tr>
-				</table>
-			]]></text>
+				</table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ffffaa00</color>
+			<color>e6ffaa00</color>
+			<width>0.7</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>997f5500</color>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="falseColor1">
 		<BalloonStyle>
-			<text><![CDATA[
-				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]</b></h5>
+			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]</b></h5>
 				<table style="border: solid 1px #3e8ed0;">
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
@@ -56,11 +54,11 @@
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Someras</td>
 					</tr>
-				</table>
-			]]></text>
+				</table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ffffaa00</color>
+			<color>e6ffaa00</color>
+			<width>0.7</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>997f5500</color>
@@ -73,8 +71,12 @@
 			<name>13</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>13</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>13</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -90,8 +92,12 @@
 			<name>11</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>11</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>11</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -107,8 +113,12 @@
 			<name>9</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>9</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>9</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -124,8 +134,12 @@
 			<name>8</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>8</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>8</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -141,8 +155,12 @@
 			<name>12</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>12</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>12</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -158,8 +176,12 @@
 			<name>10</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>10</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>10</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -175,8 +197,12 @@
 			<name>14</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>14</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>14</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -192,8 +218,12 @@
 			<name>7</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>7</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>7</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -209,8 +239,12 @@
 			<name>6</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>6</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>6</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -226,8 +260,12 @@
 			<name>5</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>5</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>5</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -243,8 +281,12 @@
 			<name>4</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>4</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>4</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -260,8 +302,12 @@
 			<name>3</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>3</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>3</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -277,8 +323,12 @@
 			<name>2</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>2</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>2</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
@@ -294,8 +344,12 @@
 			<name>1</name>
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
-				<Data name="licitacion"><value>CNH-R01-L01/2014</value></Data>
-				<Data name="area"><value>1</value></Data>
+				<Data name="licitacion">
+					<value>CNH-R01-L01/2014</value>
+				</Data>
+				<Data name="area">
+					<value>1</value>
+				</Data>
 			</ExtendedData>
 			<Polygon>
 				<outerBoundaryIs>
